@@ -35,13 +35,13 @@ Simplest way to install is by cloning whole repository:
    $ git clone https://github.com/theme-next/hexo-theme-next themes/next
    ```
 
-Or you can see [detailed installation instructions][docs-installation-url] if you want any other variant.
+Or see [detailed installation instructions][docs-installation-url] to find any other variant.
 
 ## Plugins
 
-In NexT config now you can find dependencies on each module which was moved to external repositories which can be found by [main organization link](https://github.com/theme-next).
+In NexT config now dependencies can be found on each module which was moved to external repositories which can be found by [main organization link](https://github.com/theme-next).
 
-For example, you want to use `fancybox` in your site. Go to NexT config and see:
+For example, to use `fancybox` in the site. Go to NexT config and see:
 
 ```yml
 # Fancybox
@@ -53,9 +53,9 @@ Then turn on `fancybox` and go to «Dependencies» link with installation instru
 
 ### Exceptions
 
-If you use cdn for any plugins, you need to replace your cdn link.
+To use cdn for any plugins, replace the cdn link.
 
-For example, you want to use `fancybox` and you configured a cdn link. Go to NexT config and see:
+For example, to use `fancybox` with a cdn link. Go to NexT config and see:
 
 ```yml
 vendors:
@@ -70,15 +70,15 @@ Instead of defining [main organization link](https://github.com/theme-next) for 
 
 ## Update
 
-You can update to latest master branch by the following command:
+Update to latest master branch by the following command:
 
 ```sh
 $ cd themes/next
 $ git pull
 ```
 
-And if you see any error message during update (something like **«Commit your changes or stash them before you can merge»**), recommended to learn [Hexo data files][docs-data-files-url] feature.\
-Howbeit, you can bypass update errors by `Commit`, `Stash` or `Discard` local changes. See [here](https://stackoverflow.com/a/15745424/5861495) how to do it.
+And if any error message during update occurs (something like **«Commit your changes or stash them before you can merge»**), recommended to learn [Hexo data files][docs-data-files-url] feature.\
+Howbeit, bypass update errors by `Commit`, `Stash` or `Discard` local changes. See [here](https://stackoverflow.com/a/15745424/5861495) how to do it.
 
 **If you want to update from v5.1.x to v6.0.x, read [here][docs-update-5-1-x-url].**
 
@@ -87,11 +87,11 @@ Howbeit, you can bypass update errors by `Commit`, `Stash` or `Discard` local ch
 For those who also encounter **«[Error: Cannot find module 'hexo-util'](https://github.com/iissnan/hexo-theme-next/issues/1490)»**, please check your NPM version.
 
 * `> 3`: Still not work? Please remove `node_modules` directory and reinstall using `npm install`.
-* `< 3`: Please add `hexo-util` explicitly via `npm install --save-dev hexo-util` to you site package deps.
+* `< 3`: Please add `hexo-util` explicitly via `npm install --save-dev hexo-util` to site package deps.
 
 ## Contributing
 
-Contribution is welcome, feel free to open an issue and fork. Waiting for your pull request.
+Contribution is welcome, feel free to open an issue and fork. Waiting for pull request.
 
 ## Feedback
 
@@ -99,7 +99,7 @@ Contribution is welcome, feel free to open an issue and fork. Waiting for your p
 * Request a new feature on [GitHub][contributing-url].
 * Vote for [popular feature requests][feat-req-vote-url].
 * Report a bug in [GitHub Issues][issues-url].
-* Join to our [Gitter][gitter-url] / [Riot][riot-url] / [Telegram][t-chat-url] chats.
+* Join to [Gitter][gitter-url] / [Riot][riot-url] / [Telegram][t-chat-url] chats.
 * Follow us with [Telegram Channel][t-news-url] for latest news.
 
 ## Third party applications
